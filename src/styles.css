@@ -12,10 +12,3 @@ body {
 
 }
 
-.card {
-    background-color: rgb(241, 244, 245);
-    padding: 10px;
-    border: 2px solid rgb(150, 150, 150) !important;
-    width: 350px;
-}
-

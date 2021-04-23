@@ -1,3 +1,22 @@
-<app-card></app-card>
+<app-card 
+  [title]="posts[0].title" 
+  [imageUrl]="posts[0].imageUrl" 
+  [handle]="posts[0].handle" 
+  [alt]="posts[0].alt"
+  [action]="posts[0].action"
+></app-card>
 
 
+<app-card 
+  [title]="posts[1].title" 
+  [imageUrl]="posts[1].imageUrl" 
+  [handle]="posts[1].handle" 
+  [alt]="posts[1].alt"
+  [action]="posts[1].action"
+  ></app-card>
+
+<app-card [title]="posts[2].title" [imageUrl]="posts[2].imageUrl" [handle]="posts[2].handle" [alt]="posts[2].alt"
+  [action]="posts[2].action"></app-card>
+
+<app-card [title]="posts[3].title" [imageUrl]="posts[3].imageUrl" [handle]="posts[3].handle" [alt]="posts[3].alt"
+  [action]="posts[3].action"></app-card>
