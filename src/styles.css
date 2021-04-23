@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bulma/css/bulma.css";
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Shippori+Mincho+B1:wght@400;500;700;800&display=swap');
+
+body {
+    font-family: 'Abel', sans-serif;
+    color: #fcfcfc;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
+
+}
+
+.card {
+    background-color: rgb(241, 244, 245);
+    padding: 10px;
+    border: 2px solid rgb(150, 150, 150) !important;
+    width: 350px;
+}
+
