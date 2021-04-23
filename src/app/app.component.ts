@@ -34,7 +34,7 @@ export class AppComponent {
       imageUrl: "assets/images/nature/volcano.jpg",
       handle: '@EruptingVolcano',
       alt: 'Volcano is erupting',
-      action: 'Volcano is erupting. Any guesses where?'
+      action: 'Volcano is erupting. Any guesses where? maybe it is Hawaii or Japan? Can you guess?'
     }
   ]
 
