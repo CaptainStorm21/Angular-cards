@@ -17,6 +17,12 @@ export class CardComponent implements OnInit {
   @Input() alt = '';
   @Input() action = '';
 
+  //for card_ngFor
+  // @Input() title = '';
+  // @Input() imageUrl = '';
+  // @Input() handle = '';
+  // @Input() alt = '';
+  // @Input() action = '';
   constructor() { }
 
   ngOnInit(): void {

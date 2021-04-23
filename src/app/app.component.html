@@ -15,8 +15,15 @@
   [action]="posts[1].action"
   ></app-card>
 
-<app-card [title]="posts[2].title" [imageUrl]="posts[2].imageUrl" [handle]="posts[2].handle" [alt]="posts[2].alt"
+<app-card 
+  [title]="posts[2].title" 
+  [imageUrl]="posts[2].imageUrl" 
+  [handle]="posts[2].handle" 
+  [alt]="posts[2].alt"
   [action]="posts[2].action"></app-card>
 
 <app-card [title]="posts[3].title" [imageUrl]="posts[3].imageUrl" [handle]="posts[3].handle" [alt]="posts[3].alt"
   [action]="posts[3].action"></app-card>
+
+<p>looping through *ngFor</p>
+<app-ng-for-card></app-ng-for-card>
