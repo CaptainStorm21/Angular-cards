@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-ng-for-card',
@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng-for-card.component.css']
 })
 export class NgForCardComponent implements OnInit {
+  @Input() book = '';
+  @Input() author = '';
+  @Input() year = '';
+  @Input() inStock = '';
+  @Input() description = '';
+  @Input() imageUrl = '';
+  @Input() language = '';
 
   constructor() { }
 
@@ -13,3 +20,4 @@ export class NgForCardComponent implements OnInit {
   }
 
 }
+

@@ -4,8 +4,58 @@
 
 body {
     font-family: 'Abel', sans-serif;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 0 auto;
+    padding: 5%;
+    background-color: rgb(247, 238, 196);
+}
+
+.card {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    max-width: 320px;
+    min-height: 20em;
+}
+
+/* body {
+    font-family: 'Abel', sans-serif;
     color: #fcfcfc;
     font-size: 1.5rem;
     padding: 10px;
+    margin: 0 auto;
+    padding: 5%;
+    background-color: rgb(247, 238, 196);
 }
+
+
+.card {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    width: 350px;
+    min-height: 20em;
+} */
+
+/* 
+.card-footer{
+    background-color: slategray;
+    padding: 10px;
+    color: white;
+}
+
+.is-horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.centered {
+    height: 60vh;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items:center;
+} */
 

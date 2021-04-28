@@ -1,1 +1,35 @@
-<p>ng-for-card works!</p>
+
+<div class="card">
+    <p class="title is-3">
+        {{book}}
+    </p>
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <img [src]="imageUrl" alt="Big Tree" />
+        </figure>
+    </div>
+    <!--content-->
+    <div class="card-content">
+        <div class="media-content">
+            <p class="subtitle has-text-weight-bold">
+                {{author}}
+            </p>
+            <p class="subtitle is-size-5">
+                This {{book}} was published in {{year}}
+            </p>
+            <div class="content is-size-6">
+                <p>
+                    {{description}}
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <footer class="card-footer">
+        <span class="is-size-6">
+            language: {{language}}
+            <br>
+            in stock: {{inStock}}
+        </span>
+    </footer>
+</div>
